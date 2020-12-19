@@ -191,19 +191,6 @@
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6 team-grids">
                             <div class="thumbnail team-agileits">
-                                <img src="{{asset('assets/images/team/hop.jpg')}}" class="img-responsive" alt=""/>
-                                <div class="w3agile-caption">
-                                    <p>Head Of<br/> Production</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br/><br/>
-                <div class="container">
-                    <div class="team-row-agileinfo">
-                        <div class="col-md-3 col-sm-6 col-xs-6 team-grids">
-                            <div class="thumbnail team-agileits">
                                 <img src="{{asset('assets/images/team/hocomp.jpg')}}" class="img-responsive" alt=""/>
                                 <div class="w3agile-caption">
                                     <h4>Sanjida Nasrin</h4>
@@ -211,7 +198,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="clearfix"> </div>
                     </div>
                 </div>
             </div>
