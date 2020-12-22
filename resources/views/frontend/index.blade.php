@@ -24,12 +24,17 @@
             <p style="text-align: justify">
                 <b>Fashion design</b> is the art of applying design, aesthetics, clothing construction and natural beauty to clothing and its accessories. It is influenced by cultural and social attitudes, and has varied over time and place.
             </p>
+            <p style="text-align: justify">
+                Fashion is not something that exists in dresses only. Fashion is in the sky, in the street, fashion has to do with ideas, the way we live, what is happening.
+                <br/><b> --Coco Chanel
+                </b>
+            </p>
         </div>
         <div class="col-md-5 col-xs-5 banner-bottom-grid animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <img src="{{asset('assets/images/six.jpg')}}" alt=" " class="img-responsive" style="width:797px;height:711px" />
+                <img src="{{asset('assets/images/six.jpg')}}" alt=" " id="apeal_img" class="img-responsive" style="width:797px;height:711px" />
             <div class="banner-bottom-grid1">
                 <div class="banner-bottom-grid1-pos animated wow fadeInUpBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-                    <h3>Quality Products with luxerious Design.</h3>
+                    <h3>Quality Products with luxurious Design.</h3>
                 </div>
             </div>
         </div>
@@ -40,48 +45,13 @@
     <div class="wthree_progress" id="work">
         <div class="col-md-6 col-xs-6 w3_agileits_progress_right">
             <h3 class="agileinfo_title">Appeal <span>To Buyers</span><hr class="hr_2_our_work"/> </h3>
-            <p>
+            <p style="text-align: justify">
                 It is a great pleasure to inform you that we have been exporting all kinds of Ready-made Garments in Woven, Knit, Sweater and Home Textile for many years to EU, USA and other African countries. We have 25 years practical experience in this field. We are professionally managed by educated, technically qualified and dedicated staffs to ensure the quality of the ready-made garments. Our aim is to source excellent fashion product for our esteem Buyers from quality suppliers. We have good experience in garments industry. Our strength is On-time Shipment, Best Quality and Price.
                 We are very much interested to make a good business relationship with esteemed organizations. As you know Bangladesh is doing extremely good in Ready-Made Garments in all type of fabric and yarn in knitwear, woven and sweater.
             </p>
             <br/><br/>
         </div>
-
-        <div class="col-md-6 col-xs-6 w3_agileits_progress_left">
-            <div class="agileits_progress_left_grid">
-                <div class="agileits_progress_left_grid_pos">
-                    <div class="col-xs-3 w3ls_progress_left1">
-                        <div class="w3ls_progress_left1_grid">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <p>likes</p>
-                            <h4 class="counter">43,454</h4>
-                        </div>
-                    </div>
-                    <div class="col-xs-3 w3ls_progress_left1">
-                        <div class="w3ls_progress_left1_grid">
-                            <i class="fa fa-twitter w3_twitter" aria-hidden="true"></i>
-                            <p>Followers</p>
-                            <h4 class="counter">23,543</h4>
-                        </div>
-                    </div>
-                    <div class="col-xs-3 w3ls_progress_left1">
-                        <div class="w3ls_progress_left1_grid">
-                            <i class="fa fa-whatsapp w3_google" aria-hidden="true"></i>
-                            <p>Connections</p>
-                            <h4 class="counter">56,321</h4>
-                        </div>
-                    </div>
-                    <div class="col-xs-3 w3ls_progress_left1">
-                        <div class="w3ls_progress_left1_grid">
-                            <i class="fa fa-linkedin w3_linkedin" aria-hidden="true"></i>
-                            <p>Connections</p>
-                            <h4 class="counter">12,345</h4>
-                        </div>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-            </div>
-        </div>
+        <div class="col-md-6 col-xs-6 w3_agileits_progress_left"><div class="agileits_progress_left_grid"></div></div>
         <div class="clearfix"> </div>
     </div>
     <!-- //progress -->
@@ -156,7 +126,7 @@
             <h3 class="agileinfo_title">Our <span>Team</span><hr class="hr_2_our_team"/> </h3>
             <div class="team-row-agileinfo">
                 <div class="col-md-3"></div>
-                <div class="col-md-6 col-sm-6 col-xs-6 team-grids">
+                <div class="col-md-6 col-sm-6 col-xs-6 team-grids text-center">
                     <div class="thumbnail team-agileits">
                         <img src="{{asset('assets/images/team/ceo.jpg')}}" class="img-responsive" alt=""/>
                         <div class="w3agile-caption">
@@ -226,7 +196,7 @@
             <div class="blog-agileinfo">
                 <div class="col-md-7 blog-w3grid-img">
                     <a href="#myModal_women" data-toggle="modal" class="wthree-blogimg">
-                        <img src="{{asset('assets/images/blog/f1.jpg')}}" style="width: 629px;height: 415.72px" class="img-responsive" alt=""/>
+                        <img src="{{asset('assets/images/blog/f1.jpg')}}" class="img-responsive" alt=""/>
                     </a>
                 </div>
                 <div class="col-md-5 blog-w3grid-text">
@@ -241,7 +211,7 @@
                         <img src="{{asset('assets/images/blog/man.jpg')}}" class="img-responsive" alt=""/>
                     </a>
                 </div>
-                <div class="col-md-5 blog-w3grid-text" style="margin-top: 5em !important;">
+                <div class="col-md-5 blog-w3grid-text">
                     <h4><a href="#myModal_men" data-toggle="modal">Men</a></h4>
                     <p>Style is not merely about self-expression; it’s also about being dressed appropriately for your environment. Think of clothes as being codes: you need the right combination to work with the setting you’re in.</p>
                 </div>
@@ -250,7 +220,7 @@
             <div class="blog-agileinfo">
                 <div class="col-md-7 blog-w3grid-img">
                     <a href="#myModal_kids" data-toggle="modal" class="wthree-blogimg">
-                        <img src="{{asset('assets/images/blog/kid1.jpg')}}" class="img-responsive" alt=""/>
+                        <img src="{{asset('assets/images/blog/kid2.jpg')}}" class="img-responsive" alt=""/>
                     </a>
                 </div>
                 <div class="col-md-5 blog-w3grid-text">
@@ -271,8 +241,8 @@
                 </div>
                 <div class="modal-body">
                     <img src="{{asset('assets/images/six.jpg')}}" alt="">
-                    <h5>Cras rutrum iaculis enim</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+                    <h5>Zarab Fashions</h5>
+                    <p>Children's clothing is often more casual than adult clothing, fit for play and rest. Hosiery is commonly used. More recently, however, a lot of childrenswear is heavily influenced by trends in adult fashion. </p>
                 </div>
             </div>
         </div>
@@ -284,9 +254,9 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
-                    <img src="{{asset('assets/images/three.jpg')}}" alt="">
-                    <h5>Cras rutrum iaculis enim</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+                    <img src="{{asset('assets/images/blog/f1.jpg')}}" alt="">
+                    <h5>Zarab Fashions</h5>
+                    <p>Womenswear is much more than just the garments you wear. Ladies’ clothing reflects your style, your lifestyle and your mood. Garments that underline your personality create a unique appearance that showcase your style </p>
                 </div>
             </div>
         </div>
@@ -298,9 +268,9 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
-                    <img src="{{asset('assets/images/m2.jpg')}}" alt="">
-                    <h5>Cras rutrum iaculis enim</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+                    <img src="{{asset('assets/images/blog/man.jpg')}}" alt="">
+                    <h5>Zarab Fashions</h5>
+                    <p>Style is not merely about self-expression; it’s also about being dressed appropriately for your environment. Think of clothes as being codes: you need the right combination to work with the setting you’re in.</p>
                 </div>
             </div>
         </div>
@@ -312,9 +282,9 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
-                    <img src="{{asset('assets/images/kid2.jpg')}}" alt="">
-                    <h5>Cras rutrum iaculis enim</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at. Donec fringilla lacus eu pretium rutrum. Cras aliquet congue ullamcorper. Etiam mattis eros eu ullamcorper volutpat. Proin ut dui a urna efficitur varius. uisque molestie cursus mi et congue consectetur adipiscing elit cras rutrum iaculis enim, Lorem ipsum dolor sit amet, non convallis felis mattis at. Maecenas sodales tortor ac ligula ultrices dictum et quis urna. Etiam pulvinar metus neque, eget porttitor massa vulputate. </p>
+                    <img src="{{asset('assets/images/blog/kid2.jpg')}}" alt="">
+                    <h5>Zarab Fashions</h5>
+                    <p>Children's clothing is often more casual than adult clothing, fit for play and rest. Hosiery is commonly used. More recently, however, a lot of childrenswear is heavily influenced by trends in adult fashion. </p>
                 </div>
             </div>
         </div>

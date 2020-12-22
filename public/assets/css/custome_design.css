@@ -8,7 +8,11 @@
     width : 75%;
 }
 .mail_top{
-    color: #D74F43;
+    color: #f66d9b;
+    font-size: 22px;
+}
+.language_top{
+    color: #f66d9b;
     font-size: 22px;
 }
 .whts_app{
@@ -19,10 +23,14 @@
 .whts_app_icon{
 
 }
-.language{
-    width: 18%;
-    color: black;
-    border: 2px solid;
+.language {
+    width: 10%;
+    color: #fff;
+    background-color: #197AB7;
+    border: 1px solid;
+}
+.mail_class{
+    font-size: 21px;
 }
 .zf{
     color: #f66D9b;
@@ -38,7 +46,7 @@
     width: 3%;
 }
 .whts_app_number{
-    font-size: 18px;
+    font-size: 21px;
 }
 .zarab_logo{
     margin-left: -185px;
@@ -47,7 +55,7 @@
     width: 15%;
 }
 .product_image {
-    height:470px !important;
+    height:300px !important;
     width: 100%;
 }
 .gallary_image{
@@ -361,9 +369,9 @@ section{
         height: 350px;
         width: 100%;
     }
-    .zarab_logo_show{
-        width: 20%;
-        margin-left: 90px;
+    .zarab_logo_show {
+        width: 150%;
+        margin-left: -60px;
     }
     .whatsapp{
         margin-left: 0px;
@@ -371,13 +379,40 @@ section{
         margin-bottom: 10px;
     }
     .whatsapp_logo{
-        width: 6%;
+        width: 10%;
+        margin-right: 50px;
+        /*margin-bottom: 12px;*/
     }
     .whts_app_number{
         font-size: 12px;
+        margin-right: 25px;
     }
     .mail_top{
         font-size: 18px;
+        margin-right: 20px;
+    }
+    .language_top{
+        font-size: 18px;
+        /*margin-right: 20px;*/
+    }
+    .mail_class{
+        font-size: 12px;
+        display: block;
+        margin-top: 5px;
+    }
+    .language_design{
+        margin-top: 10px;
+        margin-left: -10px;
+        display: block;
+    }
+    .language {
+        width: 118px;
+        color: black;
+        border: 0px solid;
+    }
+    #apeal_img{
+        /*width: 100%;*/
+        height: 475px !important;
     }
 }
 @media (max-width: 1024px) and (min-width: 760px){
@@ -391,24 +426,52 @@ section{
         margin-left: 50px;
     }
     .zarab_logo_show{
-        width: 15%;
-        margin-left: 245px;
+        width: 31%;
+        margin-left: -300px;
     }
     .whatsapp{
-        margin-left: 0px;
-        font-size: 10px;
+        margin-left: -116px;
+        /*font-size: 13px; */
         margin-bottom: 10px;
     }
     .whatsapp_logo{
-        width: 6%;
+        width: 4%;
     }
     .whts_app_number{
-        font-size: 12px;
+        font-size: 18px;
     }
     .mail_top{
         font-size: 18px;
     }
+    .language_top {
+        font-size: 18px !important;
+    }
+    .team h4 {
+        font-size: 15px;
+    }
 }
+@media (max-width: 768px) and (min-width: 761px){
+    .zarab_logo_show {
+        width: 31%;
+        margin-left: -235px;
+    }
+    .whatsapp_logo{
+        width: 4% !important;
+    }
+    .whts_app_number{
+        font-size: 12px !important;
+    }
+    .mail_class {
+        font-size: 15px;
+    }
+    .language_top {
+        font-size: 18px !important;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 12px;
+    }
+}
+
 
 @media(min-width: 540px) and (max-width: 600px){
     .our_product{
@@ -419,8 +482,8 @@ section{
         margin-left: 50px;
     }
     .zarab_logo_show{
-        width: 20%;
-        margin-left: 90px;
+        width: 51%;
+        margin-left: -52px;
     }
     .whatsapp{
         margin-left: 0px;
@@ -428,40 +491,85 @@ section{
         margin-bottom: 10px;
     }
     .whatsapp_logo{
-        width: 6%;
+        width: 10%;
+        /*margin-bottom: 12px;*/
     }
     .whts_app_number{
         font-size: 12px;
+        margin-left: 25px;
     }
     .mail_top{
         font-size: 18px;
     }
+    .mail_class{
+        font-size: 12px;
+        display: block;
+        margin-top: 5px;
+    }
+    .language_design{
+        margin-top: 10px;
+        margin-left: -25px;
+        display: block;
+    }
+    .language {
+        width: 33%;
+        color: black;
+        border: 2px solid;
+    }
+}
+@media(max-width: 320px){
+    .whts_app_number {
+        font-size: 12px;
+        margin-right: 25px;
+    }
+    .mail_top {
+        font-size: 18px;
+        /* margin-right: 133px; */
+        margin-left: -3px;
+    }
+    .zarab_logo_show {
+        width: 150%;
+        margin-left: -60px;
+    }
+    .whatsapp{
+        margin-left: 0px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .whatsapp_logo{
+        width: 10%;
+        margin-right: 25px;
+        /*margin-bottom: 12px;*/
+    }
+    .language_top{
+        font-size: 18px;
+        /*margin-right: 20px;*/
+    }
+    .mail_class{
+        font-size: 12px;
+        display: block;
+        margin-top: 5px;
+        margin-left: -23px;
+    }
+    .language_design {
+        margin-top: 10px;
+        margin-left: -32px;
+        display: block;
+    }
+    .language {
+        width: 118px;
+        color: black;
+        border: 0px solid;
+    }
+
 }
 @media(min-width: 240px) and (max-width: 360px){
     .our_product{
         font-size: 10px;
         color: black;
     }
-    .zarab_logo{
-        margin-left: 50px;
-    }
-    /*.zarab_logo_show{*/
-    /*    width: 20%;*/
-    /*    margin-left: 90px;*/
-    /*}*/
-    /*.whatsapp{*/
-    /*    margin-left: 0px;*/
-    /*    font-size: 10px;*/
-    /*    margin-bottom: 10px;*/
-    /*}*/
-    /*.whatsapp_logo{*/
-    /*    width: 6%;*/
-    /*}*/
-    /*.whts_app_number{*/
-    /*    font-size: 12px;*/
-    /*}*/
-    /*.mail_top{*/
-    /*    font-size: 18px;*/
+    /*.zarab_logo{*/
+    /*    margin-left: 50px;*/
     /*}*/
 
 }

@@ -8,7 +8,7 @@
         <div class="banner-text">
             <div class="container">
                 <div class="banner-w3lstext">
-                    <h1><a href="#">Company Profile<span>Zarab Fashion</span></a></h1>
+                    <h1><a href="{{route('frontend.index')}}"><div class="zf">zarab fashions</div> <span>Welcome To</span></a></h1>
                     <p>A house of qualified and experienced buying experts from Bangladesh</p>
                 </div>
             </div>
@@ -21,14 +21,15 @@
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="card profile_card">
                     <div class="card-body">
-                        <h3 class="agileinfo_title">Zarab Fashions</h3>
-                        <p> <b>Head Office :</b> House no. 88 ( 2nd fl. ), Lake Drive Road, Sector – 7, Uttara</p>
+                        <h3 class="agileinfo_title">Company <span>Profile</span></h3>
+                        <p> <b>Company Name :</b>Zarab Fashions</p>
+                        <p> <b>Head Office :</b>House no. 88 ( 2nd fl. ), Lake Drive Road, Sector – 7, Uttara</p>
                         <p>Dhaka – 1230, Bangladesh</p>
                         <p> <b>Cell :</b> +880 1754333344(WhatsApp)</p>
                         <p>+880 1919000035</p>
                         <p> <b>Email :</b> ceo@zarabfashions.com</p>
                         <p> zarabfashions2000@gmail.com</p>
-                        <p> <b>Website :</b> <a href="www.zarabfashions.com">www.zarabfashions.com</a> </p>
+                        <p> <b>Website :</b> <a href="http://zarabfashions.com/" target="_blank">zarabfashions</a> </p>
                         <p><b>Available In :</b></p>
                         <p><img src="{{asset('assets/images/icon/mail.png')}}" class="profile_social_media_logo">
                             <img src="{{asset('assets/images/icon/wp.png')}}" class="profile_social_media_logo">
@@ -101,7 +102,7 @@
             </div>
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <p> <b>Source of Raw Materials : </b>Local and Imported</p>
-                <p> <b>Portfolio : </b>URembo(UK), LEFORGERON(Ivory Coast), Little Loungers(USA), A&M(Ukraine)</p>
+                <p> <b>Portfolio : </b>ESTEFVKA(USA), URembo(UK), LEFORGERON(Ivory Coast), Little Loungers(USA), A&M(Ukraine)</p>
                 <p> <b>Associate Factories : </b>
                 <ul class="product_list" >
                     <li>Fakir Apparels Ltd.</li>
@@ -158,6 +159,7 @@
                             <div class="thumbnail team-agileits">
                                 <img src="{{asset('assets/images/team/ceo.jpg')}}" class="img-responsive" alt=""/>
                                 <div class="w3agile-caption">
+                                    <h4>Farid Amin</h4>
                                     <p>CEO</p>
                                 </div>
                             </div>
@@ -169,6 +171,7 @@
                             <div class="thumbnail team-agileits">
                                 <img src="{{asset('assets/images/team/hom.jpg')}}" class="img-responsive" alt=""/>
                                 <div class="w3agile-caption">
+                                    <h4>Sheikh Hannan</h4>
                                     <p>Head Of<br/> Merchandising</p>
                                 </div>
                             </div>
@@ -177,6 +180,7 @@
                             <div class="thumbnail team-agileits">
                                 <img src="{{asset('assets/images/team/hoq.jpg')}}" class="img-responsive" alt=""/>
                                 <div class="w3agile-caption">
+                                    <h4>Touhid Amin</h4>
                                     <p>Head Of<br/> Quality Control</p>
                                 </div>
                             </div>
@@ -185,6 +189,7 @@
                             <div class="thumbnail team-agileits">
                                 <img src="{{asset('assets/images/team/hoc.jpg')}}" class="img-responsive" alt=""/>
                                 <div class="w3agile-caption">
+                                    <h4>Akhtar Habib</h4>
                                     <p>Head Of<br/> Commercial</p>
                                 </div>
                             </div>

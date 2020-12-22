@@ -8,7 +8,7 @@
         <div class="banner-text">
             <div class="container">
                 <div class="banner-w3lstext">
-                    <h1><a href="#">Products<span>Zarab Fashion</span></a></h1>
+                    <h1><a href="{{route('frontend.index')}}"><div class="zf">zarab fashions</div> <span>Welcome To</span></a></h1>
                     <p>A house of qualified and experienced buying experts from Bangladesh</p>
                 </div>
             </div>
@@ -164,7 +164,7 @@
                     <li>Girls 3 pcs sets</li>
                     <li>Ladies/Girls Stretch Pants</li>
                     <li>Ladies/Girls sexy shorts</li>
-                    <li>Boys Denim Pants/li>
+                    <li>Boys Denim Pants</li>
                     <li>Boys short Pants</li>
                     <li>Mens/Ladies/Boys/Girls Denim Jacket</li>
                     <li>Mens/Ladies Boxer shorts</li>
@@ -175,7 +175,9 @@
             <div class="col-md-4 col-sm-12 col-xs-12">
                 <h3 class="agileinfo_title text-center">Sweater Items<hr class="h2_product_list"/></h3>
                 <ul class="product_list" >
-                    <li>Mens/Ladies Sweater, Cardigan, Pullover</li>
+                    <li>Mens/Ladies Sweater</li>
+                    <li>Mens/Ladies Cardigan</li>
+                    <li>Mens/Ladies Pullover</li>
                     <li>Boys Sweater</li>
                     <li>Girls Sweater</li>
                 </ul>

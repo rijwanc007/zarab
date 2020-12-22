@@ -8,7 +8,7 @@
         <div class="banner-text">
             <div class="container">
                 <div class="banner-w3lstext">
-                    <h1><a href="#">RMG in Bangladesh<span>Zarab Fashion</span></a></h1>
+                    <h1><a href="{{route('frontend.index')}}"><div class="zf">zarab fashions</div> <span>Welcome To</span></a></h1>
                     <p>A house of qualified and experienced buying experts from Bangladesh</p>
                 </div>
             </div>
